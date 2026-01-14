@@ -20,8 +20,8 @@ jobs:
       - name: Install dependecies
         run: python -m pip install pytest httpx
 
-      - name: Install fast api
-        run: python -m pip install fastapi
+      - name: Install fast api and other
+        run: python -m pip install fastapi src
 
       - name: Run tests
         run: python -m pytest tests/
