@@ -21,4 +21,4 @@ jobs:
         run: python -m pip install pytest httpx
 
       - name: Run tests
-        run: python -m pytests tests/
+        run: python -m pytest tests/
