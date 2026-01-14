@@ -21,10 +21,7 @@ jobs:
         run: python -m pip install --upgrade pip
 
       - name: Install dependecies
-        run: python -m pip install pytest httpx
-
-      - name: Install fast api and other
-        run: python -m pip install fastapi src.main
+        run: python -m pip install pytest httpx src fast api
 
       - name: Run tests
         run: python -m pytest tests/
